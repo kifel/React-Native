@@ -1,10 +1,8 @@
-import React from 'react';
-import { View } from 'react-native';
+import React from "react";
+import { Routes } from "../../Routes";
 
 // import { Container } from './styles';
 
-const Login = () => {
-  return <View />;
-}
-
-export default Login;
+export const Login = () => {
+  return <Routes />;
+};
