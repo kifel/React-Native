@@ -50,6 +50,12 @@ export const Recover = styled.Text`
   font-size: 12px;
 `;
 
+export const CreateAccount = styled.Text`
+  color: #120A8F;
+  font-family: sans-serif;
+  font-size: 12px;
+`;
+
 export const Submit = styled.TouchableOpacity`
   height: 33px;
   width: 131px;

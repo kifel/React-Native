@@ -6,6 +6,7 @@ import Logo from "../../../assets/logo.jpeg";
 import { Gradient } from "../../components/Gradient";
 import {
   Container,
+  CreateAccount,
   InputLogin,
   InputPassword,
   LogoImage,
@@ -52,7 +53,7 @@ export default function Login() {
       </Submit>
       {/* [ ] Precisa adicionar a rota */}
       <TouchableOpacity>
-        <Recover>Não possui cadastro? Cadastre-se!</Recover>
+        <CreateAccount>Não possui cadastro? Cadastre-se!</CreateAccount>
       </TouchableOpacity>
       <StatusBar style="auto" />
     </Container>
