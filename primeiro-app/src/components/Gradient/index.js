@@ -1,5 +1,6 @@
 import { LinearGradient } from "expo-linear-gradient";
 
+// [x]LinearGradient completo
 export const Gradient = () => {
   return (
     <LinearGradient
