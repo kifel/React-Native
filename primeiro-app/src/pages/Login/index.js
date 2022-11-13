@@ -1,5 +1,6 @@
 import { useNavigation } from "@react-navigation/native";
 import { StatusBar } from "expo-status-bar";
+import React from "react";
 import { useForm } from "react-hook-form";
 import { TouchableOpacity } from "react-native";
 import Logo from "../../../assets/logo.jpeg";
