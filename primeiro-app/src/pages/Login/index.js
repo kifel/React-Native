@@ -27,8 +27,8 @@ export default function Login() {
     console.log(data);
   };
 
-  const screenRecover = () => {
-    navigation.navigate("Recover");
+  const screenRecoverPage = () => {
+    navigation.navigate("RecoverPage");
   };
 
   return (
@@ -46,7 +46,7 @@ export default function Login() {
         placeholderTextColor={"gray"}
         onChangeText={(text) => setValue("password", text)}
       />
-      <TouchableOpacity onPress={screenRecover}>
+      <TouchableOpacity onPress={screenRecoverPage}>
         <Recover>Esqueceu sua senha? Clique aqui</Recover>
       </TouchableOpacity>
       <Submit onPress={handleSubmit(handleSubmitForm)}>
